@@ -19,13 +19,6 @@ Ruby 2.7 or higher
 1. Run the application.
 `ruby client_search_cli.rb`
 
-2. You will see a menu with options:
-`
-Choose an option:
-1. Search by name
-2. Find duplicates by email
-3. Exit
-`
 
 ### License
 This project is open-source, available under the MIT license.
