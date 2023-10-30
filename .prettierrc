@@ -1,0 +1,11 @@
+{
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "printWidth": 125,
+    "rubyPlugins": "plugin/trailing_comma,plugin/single_quotes",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  }
+  
