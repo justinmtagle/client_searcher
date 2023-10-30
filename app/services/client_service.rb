@@ -16,8 +16,12 @@ class ClientService
   # Initializes a new ClientService object.
   #
   # @param [String] file_path the path to the JSON file containing client information.
-  def initialize(file_path)
-    @clients = JSON.parse(File.read(file_path))
+  def initialize(data_or_path)
+    @clients = if data_or_path.strip.start_with?('{', '[')
+                 JSON.parse(data_or_path)
+               else
+                 JSON.parse(File.read(data_or_path))
+               end
 
   rescue Errno::ENOENT, JSON::ParserError => e
     puts "An error occurred: #{e.message}"

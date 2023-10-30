@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "full_name": "John Doe",
+      "email": "john.doe@test.com"
+    },
+    {
+      "id": 2,
+      "full_name": "Jane Doe",
+      "email": "jane.doe@test.com"
+    },
+    {
+      "id": 3,
+      "full_name": "Another Jane Doe",
+      "email": "Jane.Doe@test.com"
+    }
+]
+  
